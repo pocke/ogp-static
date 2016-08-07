@@ -1,0 +1,25 @@
+{
+  "name": "ogp-static",
+  "version": "1.0.0",
+  "description": "Generate OGP meta tags for a static web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocke/ogp-static.git"
+  },
+  "author": "Masataka Kuwabara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocke/ogp-static/issues"
+  },
+  "homepage": "https://github.com/pocke/ogp-static#readme",
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.10"
+  },
+  "bin": {
+    "ogp-static": "index.js"
+  }
+}
